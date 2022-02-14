@@ -1,8 +1,7 @@
-import data from "../../data/db.json";
 import classes from "./Tours.css";
 
-export default function Tours() {
-  let travelDestinations = data.map((props) => {
+export default function Tours(propsHome) {
+  let travelDestinations = propsHome.data.map((props) => {
     return (
 
       <tr key={props.id}>
