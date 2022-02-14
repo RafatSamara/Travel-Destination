@@ -1,0 +1,9 @@
+#img {
+    height: 100px;
+    width: 100px;
+    align-items: center;
+}
+
+table, th, td {
+    border: 1px solid black;
+  }
