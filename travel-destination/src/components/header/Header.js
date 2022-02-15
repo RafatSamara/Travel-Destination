@@ -1,11 +1,7 @@
+import Nav from '../Navbar/Navbar'
 import classes from "./Header.css";
-
-export default function Header (){
+export default function Header() {
   return (
-    <header>
-      <ul>
-        <li><a className="active" href="./index.html">Home</a></li>
-    </ul>
-    </header>
+    <header><ul><Nav /></ul></header>
   );
 };
